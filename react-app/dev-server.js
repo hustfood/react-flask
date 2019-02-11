@@ -6,7 +6,8 @@ const options = {
     hot: true,
     host: 'localhost',
     port: 3000,
-    headers: { "Access-Control-Allow-Origin": "*" }
+    headers: { "Access-Control-Allow-Origin": "*" },
+    historyApiFallback: true
 };
 
 webpackDevServer.addDevServerEntrypoints(config, options);

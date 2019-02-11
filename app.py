@@ -8,9 +8,10 @@ app.config.update(
 )
 
 
-@app.route('/')
+@app.route('/one')
+@app.route('/two')
 def index():
-	return render_template('test.html', platform=os.name)
+	return render_template('test.html', platform=os.name+'1')
 
 
 if __name__ == '__main__':
