@@ -10,7 +10,7 @@ app.config.update(
 
 @app.route('/')
 def index():
-	return render_template('test.html')
+	return render_template('test.html', platform=os.name)
 
 
 if __name__ == '__main__':
