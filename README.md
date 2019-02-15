@@ -12,4 +12,4 @@ npm install
 npm start
 
 ### step 3
-run the project then visit http://127.0.0.1/one
+run the project then visit http://127.0.0.1:5000/one
