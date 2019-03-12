@@ -5,11 +5,20 @@ template for react &amp; flask &amp; antd &amp; webpack
 recommand to use PyCharm 
 
 ### step 1
+git clone ...
+
+### step 2
+rename project to new name
+
+### step 3
+git remote set-url origin [new_project_url]
+
+### step 4
 cd ./react-app
 npm install
 
-### step 2
+### step 5
 npm start
 
-### step 3
+### step 6
 run the project then visit http://127.0.0.1:5000/one
