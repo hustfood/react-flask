@@ -12,7 +12,7 @@ class App extends Component {
   render() {
       return (
               <div>
-                  <Layout>
+                  <Layout style={{ minHeight: '100vh' }}>
                       <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
                           <div className="logo">G68 APP</div>
                           <Menu
