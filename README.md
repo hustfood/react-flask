@@ -2,7 +2,7 @@
 template for react &amp; flask &amp; antd &amp; webpack
 
 ### step 0
-recommand to use PyCharm 
+recommand to use Visual Studio Code or PyCharm
 
 ### step 1
 git clone ...
