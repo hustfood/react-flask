@@ -1,9 +1,13 @@
 .logo {
-    width: 120px;
+    width: 150px;
     height: 31px;
     color: #fff;
     font-size: 25px;
     text-align: center;
     margin: 0 16px 0 16px;
     float: left;
+}
+
+.logo img {
+    margin-right: 10px
 }

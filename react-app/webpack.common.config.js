@@ -46,7 +46,7 @@ module.exports = {
                             loader: 'file-loader',
                             options: {
                                 name: '[hash].[ext]',
-                                publicPath: 'static/dist'
+                                publicPath: '../static/dist'
                             }
                         }
                     ]

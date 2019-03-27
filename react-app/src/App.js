@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
 
-import { Layout, Menu, Icon } from 'antd';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
-const { Header, Content, Footer } = Layout;
+import './App.css';
 
 import PageOneComponent from './containers/PageOne';
 import PageTwoComponent from './containers/PageTwo';
+
+import { Layout, Menu, Icon } from 'antd';
+import { Route, NavLink } from 'react-router-dom';
+
+import appLogo from './logo.svg';
+
+const { Header, Content, Footer } = Layout;
+
 
 class App extends Component {
   render() {
@@ -14,7 +19,7 @@ class App extends Component {
               <div>
                   <Layout style={{ minHeight: '100vh' }}>
                       <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-                          <div className="logo">G68 APP</div>
+                      <div className="logo"><img src={appLogo} alt=""/>G68 APP</div>
                           <Menu
                               theme="dark"
                               mode="horizontal"
@@ -36,7 +41,7 @@ class App extends Component {
                           </div>
                       </Content>
                       <Footer style={{ textAlign: 'center' }}>
-                          Ant Design ©2018 Created by Ant UED
+                          G68APP ©2019 Owned by foojamfung
                       </Footer>
                   </Layout>
               </div>
