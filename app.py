@@ -11,7 +11,7 @@ app.config.update(
 @app.route('/one')
 @app.route('/two')
 def index():
-	return render_template('test.html', platform=os.name+'1')
+	return render_template('test.html', platform=os.name)
 
 
 if __name__ == '__main__':
